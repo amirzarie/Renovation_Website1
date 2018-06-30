@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta name="keywords" content="Renovation Website"/>
     <meta name="description" content=""/>
-    <link rel="stylesheet" type="text/css" href="css/Renovation_Website.css"/>
-    <script src="js/Renovation_Website.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!--Import Google Icon Font-->
@@ -14,28 +13,29 @@
   </head>
 
 <body>
-  <body>
 <!-- Creating the navigation bar with various links as options. -->
-    <nav class="nav-wrapper grey lighten-5 ">
+<nav class="nav-wrapper grey lighten-5 ">
     <div class="container">
       <a href="#" class="brand-logo black-text" id="renovation_location">Renovation</a>
       <a href="#" class="sidenav-trigger" data-target="mobile-links"><i class="material-icons black-text right hide-on-large-only">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li class="nav_list"><a href="aboutus.html" style="color: black;">About</a></li>
-        <li class="nav_list"><a href="getintouch.html" style="color: black;">Get in touch</a></li>
-        <li class="nav_list"><a href="#" style="color: black;">Services</a></li>
-        <li class="nav_list"><a href="#" class="btn grey lighten-2 waves-effect waves-light black-text">Join our mailing list</a></li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Get in touch</a></li>
+        <li class="nav-item"><a href="#">Services</a></li>
+        <li class="nav-item"><a href="#" class="btn grey lighten-2 waves-effect waves-light black-text">Join our mailing list</a></li>
       </ul>
     </div>
     </nav>
 
     <ul class="sidenav" id="mobile-links">
-      <li><a href="aboutus.html" style="color: black;">About</a></li>
-      <li><a href="#" style="color: black;">Get in touch</a></li>
-      <li><a href="#" style="color: black;">Services</a></li>
+      <li class="nav-item"><a href="#">About</a></li>
+      <li class="nav-item"><a href="#">Get in touch</a></li>
+      <li class="nav-item"><a href="#">Services</a></li>
     </ul>
+
+
 <!-- Creating a card for the 'Get a quote'. -->
-  <div class="container">
+  <div class="container body">
     <div class="row">
       <div class="col s12 m4 l4">
         <div class="card">
@@ -79,10 +79,6 @@
   <!-- Compiled and minified JavaScript -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-</script>
+<script src="js/script.js"></script>
 </body>
 </html>
