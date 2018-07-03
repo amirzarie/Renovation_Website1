@@ -3,7 +3,7 @@
 var html_dictionary = {
   "Getintouch" : "snippets/getintouch.html",
   "Services" : "snippets/services.html",
-  "About" : "snippets/home.html",
+  "about" : "snippets/home.html",
 };
 
 
