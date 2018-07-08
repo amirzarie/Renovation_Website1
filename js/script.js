@@ -21,3 +21,5 @@ $(document).ready(function(){
     $(".body").load(html_dictionary[clicked]) ;//adding html_butto
   });
 })
+
+/*The slide codes*/

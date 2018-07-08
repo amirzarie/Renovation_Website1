@@ -7,7 +7,44 @@
   margin: 25px;
 }
 
-
 .nav_button{
   color: black;
+}
+
+/*Image for the slide*/
+.slides{
+  width: 50em;
+  height: 30em;
+}
+#outerbox{
+  width: 50em;
+  height: 30em;
+  overflow: hidden;
+}
+#sliderbox{
+  position: relative;
+  width: 150em;
+  animation-name: Amir;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+}
+
+#sliderbox img{
+  float: left;
+}
+
+@keyframes Amir {
+0%{
+  left: 0em;
+}
+33%{
+  left: -50em;
+}
+66%{
+  left: -100em;
+}
+100%{
+  left: -150em;
+}
+
 }
