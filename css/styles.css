@@ -11,8 +11,8 @@
   color: black;
 }
 
-/*Image for the slide*/
-.slides{
+/* Image for the slide*/
+/* .slides{
   width: 50em;
   height: 30em;
 }
@@ -27,9 +27,9 @@
   animation-name: Amir;
   animation-duration: 18s;
   animation-iteration-count: infinite;
-}
+} */
 
-#sliderbox img{
+/* #sliderbox img{
   float: left;
 }
 
@@ -47,4 +47,26 @@
   left: -150em;
 }
 
+} */
+
+#para{
+  width: 80%;
+  margin: 15px auto;
+  margin-bottom: 60px;
+}
+
+#aboutus{
+  margin-bottom: 50px;
+}
+
+#cards{
+  margin-bottom: 50px;
+}
+
+#renovation_location{
+  font-size: 3em;
+}
+
+#aboutustitle{
+  text-align: center;
 }

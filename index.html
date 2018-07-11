@@ -16,7 +16,7 @@
 <!-- Creating the navigation bar with various links as options. -->
 <nav class="nav-wrapper grey lighten-5 ">
     <div class="container">
-      <a href="#" class="brand-logo black-text" id="renovation_location">Renovation</a>
+      <a href="#" class="brand-logo indigo-text text-darken-4" id="renovation_location">Renovation</a>
       <a href="#" class="sidenav-trigger" data-target="mobile-links"><i class="material-icons black-text right hide-on-large-only">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li class="nav-item"><a href="#">Get in touch</a></li>
@@ -30,14 +30,21 @@
       <li class="nav-item"><a href="#">Get in touch</a></li>
       <li class="nav-item"><a href="#">Services</a></li>
     </ul>
-    <!-- Parallax -->
-        <div class="parallax-container">
-        <div class="parallax center">
-          <img src="assets/image.jpg" alt="house interior image" class="responsive-img">
-        </div>
-        </div>
+
+<!-- A paragraph about us. -->
+  <div class="container" id="aboutus">
+    <h2 class="indigo-text text-darken-4" id="aboutustitle">About us...</h2>
+      <p>Aenean et enim accumsan, tincidunt libero in, aliquam libero. Ut eget nunc ultrices urna suscipit pellentesque. Integer vel dictum mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus at ex ut dolor efficitur ornare ut ac velit. Maecenas erat eros, iaculis sed tempor at, feugiat a arcu. Vestibulum dictum tristique erat, ullamcorper maximus neque hendrerit eget.</P>
+  </div>
+
+  <!-- Parallax -->
+    <div class="parallax-container" id="para">
+      <div class="parallax center">
+        <img src="assets/image.jpg" alt="house interior image" class="responsive-img">
+      </div>
+    </div>
 <!-- Creating a card for the 'Get a quote'. -->
-  <div class="container body">
+  <div class="container body" id="cards">
     <div class="row">
       <div class="col s12 m6 l6">
         <div class="card">
@@ -47,7 +54,7 @@
           <span class="card-title">Get in touch</span>
           <div class="card-content">Be proud to call it your kitchen.</div>
           <div class="card-action">
-            <a href="#"><small>+Read more</small></a>
+            <a href="#" class="indigo-text text-darken-4"><small>+Read more</small></a>
           </div>
         </div>
       </div>
@@ -59,7 +66,7 @@
           <span class="card-title">Services</span>
           <div class="card-content">Enjoy the comfort of your home.</div>
           <div class="card-action">
-            <a href="#"><small>+Read more</small></a>
+            <a href="#" class="indigo-text text-darken-4"><small>+Read more</small></a>
           </div>
         </div>
       </div>
@@ -71,7 +78,6 @@
 <script src="js/script.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBX1BExSmW4B9Y5wNOKP0Ssw1x24oLAZCs&callback=initMap"></script>
 <script>
-$('.materialboxed').materialbox();
 $('.parallax').parallax();
 </script>
 
