@@ -25,3 +25,19 @@ $(document).ready(function(){
     $(".body").load(html_dictionary[clicked]);//adding html_butto
   });
 })
+
+$(document).on('click', '.card-action a', function(){
+  var clicked = $(this).parent().parent().find(".card-title").text().replace(/\s/g, '');
+  $(".body").load(html_dictionary[clicked]);//adding html_butto
+
+});
+
+function initMap() {
+  // The location of Uluru
+  var toronto = {lat: 43.653226, lng: -79.4028938};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 15, center: toronto});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+};

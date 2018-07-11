@@ -29,17 +29,7 @@
 <div class="container">
 <div id="map"></div>
 </div>
-<script>
-function initMap() {
-  // The location of Uluru
-  var toronto = {lat: 43.653226, lng: -79.4028938};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 15, center: toronto});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-</script>
+
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcmpBd1AJIu_XEZLe0XTDKkp4yVXIsFFE&callback=initMap">
 </script>
