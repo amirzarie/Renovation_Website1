@@ -50,9 +50,7 @@
 } */
 
 #para{
-  width: 80%;
-  margin: 15px auto;
-  margin-bottom: 60px;
+  width: 100%;
 }
 
 #aboutus{
@@ -75,10 +73,14 @@
   width: 30%;  /* The width is the width of the web page */
  }
 
-#para{
-  width: 100%;
+#last-stacked-image{
+  margin-bottom: 50px;
 }
 
-#last-stacked-image{
+#parallax1{
+  padding-top: 0px;
+}
+
+#parallax2{
   margin-bottom: 50px;
 }
