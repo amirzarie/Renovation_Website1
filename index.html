@@ -1,83 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head class="RW_header">
-    <meta charset="utf-8" />
-    <meta name="keywords" content="Renovation Website"/>
-    <meta name="description" content=""/>
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Renovation_Website</title>
-  </head>
-
-<body>
-
-<!-- Creating the navigation bar with various links as options. -->
-<nav class="nav-wrapper grey lighten-5 ">
-    <div class="container">
-      <a href="#" class="brand-logo orange-text text-darken-4" id="renovation_location">RENOVATION</a>
-      <a href="#" class="sidenav-trigger" data-target="mobile-links"><i class="material-icons black-text right hide-on-large-only">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li class="nav-item"><a href="#">Get in touch</a></li>
-        <li class="nav-item"><a href="#">Services</a></li>
+   <head class="RW_header">
+      <meta charset="utf-8" />
+      <meta name="keywords" content="Renovation Website"/>
+      <meta name="description" content=""/>
+      <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <title>Renovation_Website</title>
+   </head>
+   <body>
+      <!-- Creating the navigation bar with various links as options. -->
+      <nav class="nav-wrapper grey lighten-5 ">
+         <div class="container">
+            <a href="#" class="brand-logo orange-text text-darken-4" id="renovation_location">RENOVATION</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links"><i class="material-icons black-text right hide-on-large-only">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+               <li class="nav-item"><a href="#">Services</a></li>
+               <li class="nav-item"><a href="#">Get in touch</a></li>
+            </ul>
+         </div>
+      </nav>
+      <ul class="sidenav" id="mobile-links">
+         <li class="nav-item"><a href="#">Services</a></li>
+         <li class="nav-item"><a href="#">Get in touch</a></li>
       </ul>
-    </div>
-    </nav>
-
-    <ul class="sidenav" id="mobile-links">
-      <li class="nav-item"><a href="#">Get in touch</a></li>
-      <li class="nav-item"><a href="#">Services</a></li>
-    </ul>
-
-<div class='body'> <!-- Added by Ali for dynamic loading -->
-<!-- A paragraph about us. -->
-  <div class="container" id="aboutus">
-    <h2 class="orange-text text-darken-4" id="aboutustitle">About us...</h2>
-      <p>We are a renovation company inspired to design homes.</P>
-  </div>
-
-  <!-- Parallax -->
-  <div class="section">
-    <div class="parallax-container" id="para">
-      <div class="parallax center">
-        <img src="assets/image9.jpg" alt="house interior image" class="responsive-img">
+      <div class='body'>
+         <!-- Added by Ali for dynamic loading -->
+         <!-- A paragraph about us. -->
+         <div class="container" id="aboutus">
+            <h2 class="orange-text text-darken-4" id="aboutustitle">About us...</h2>
+            <p>We are a renovation company inspired to design homes.</P>
+         </div>
+         <!-- Parallax -->
+         <div class="section">
+            <div class="parallax-container" id="para">
+               <div class="parallax center">
+                  <img src="assets/image9.jpg" alt="house interior image" class="responsive-img">
+               </div>
+            </div>
+         </div>
+         <!-- Stacked images with comments and titles. -->
+         <section class="container section" id="photo's">
+            <div class="row">
+               <div class="col s12 l6">
+                  <img src="assets/home2.jpg" alt="home image" class="responsive-img materialboxed">
+               </div>
+               <div class="col s12 l5 offset-l1">
+                  <h2 class="orange-text text-darken-4">Home</h2>
+                  <p>Lorem ipsum dolor sit amet, malesuada sit amet lacus. Nullam iaculis pellentesque metus quis malesuada.</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col s12 l6 push-l7 offset-l1">
+                  <img src="assets/bedroom3.jpg" alt=" bedroom image" class="responsive-img materialboxed">
+               </div>
+               <div class="col s12 l5 pull-l5 right-align">
+                  <h2 class="orange-text text-darken-4">Bedroom</h2>
+                  <p>Lorem ipsum dolor sit amet, malesuada sit amet lacus. Nullam iaculis pellentesque metus quis malesuada.</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col s12 l6" id="last-stacked-image">
+                  <img src="assets/kitchen4.jpg" alt=" kitchen image" class="responsive-img materialboxed">
+               </div>
+               <div class="col s12 l5 offset-l1">
+                  <h2 class="orange-text text-darken-4">Kitchen</h2>
+                  <p>Lorem ipsum dolor sit amet, roin mollis enim a volutpat condimentum. Nullam iaculis pellentesque metus quis malesuada.</p>
+               </div>
+            </div>
+         </section>
       </div>
     </div>
   </div>
 
-<!-- Stacked images with comments and titles. -->
-<section class="container section" id="photo's">
-  <div class="row">
-    <div class="col s12 l6">
-      <img src="assets/home2.jpg" alt="home image" class="responsive-img materialboxed">
-    </div>
-    <div class="col s12 l5 offset-l1">
-      <h2 class="orange-text text-darken-4">Home</h2>
-      <p>Lorem ipsum dolor sit amet, malesuada sit amet lacus. Nullam iaculis pellentesque metus quis malesuada.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 l6 push-l7 offset-l1">
-      <img src="assets/bedroom3.jpg" alt=" bedroom image" class="responsive-img materialboxed">
-    </div>
-    <div class="col s12 l5 pull-l5 right-align">
-      <h2 class="orange-text text-darken-4">Bedroom</h2>
-      <p>Lorem ipsum dolor sit amet, malesuada sit amet lacus. Nullam iaculis pellentesque metus quis malesuada.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 l6" id="last-stacked-image">
-      <img src="assets/kitchen4.jpg" alt=" kitchen image" class="responsive-img materialboxed">
-    </div>
-    <div class="col s12 l5 offset-l1">
-      <h2 class="orange-text text-darken-4">Kitchen</h2>
-      <p>Lorem ipsum dolor sit amet, roin mollis enim a volutpat condimentum. Nullam iaculis pellentesque metus quis malesuada.</p>
-    </div>
-  </div>
-</section>
-</div>
+
 <!-- Page footer -->
 <footer class="page-footer orange darken-4">
   <div class="container">
@@ -119,4 +118,13 @@ $('.materialboxed').materialbox();
 </script>
 
 </body>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <script src="js/script.js"></script>
+      <script>
+         $('.parallax').parallax();
+      </script>
+   </body>
+>>>>>>> 7a3b0b007dde7d9a9b95f301da958c0393d3418a
 </html>
