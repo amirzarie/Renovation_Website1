@@ -4,7 +4,7 @@ var html_dictionary = {
   "Getintouch" : "snippets/getintouch.html",
   "Services" : "snippets/services.html",
   "About" : "snippets/about.html",
-  "Renovation" : "snippets/home.html"
+  "RENOVATION" : "snippets/home.html"
 };
 
 
@@ -18,11 +18,11 @@ $(document).ready(function(){
   });
   $(".nav-item a").click(function(){
     var clicked = $(this).html().replace(/\s/g, '');
-    $(".body").load(html_dictionary[clicked]) ;//adding html_butto
+    $(".body").load(html_dictionary[clicked]) ;//adding html_button
   });
   $(".card-action a").click(function(){
     var clicked = $(this).parent().parent().find(".card-title").text().replace(/\s/g, '');
-    $(".body").load(html_dictionary[clicked]);//adding html_butto
+    $(".body").load(html_dictionary[clicked]);//adding html_button
   });
 })
 
