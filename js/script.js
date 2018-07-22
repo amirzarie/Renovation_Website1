@@ -3,7 +3,7 @@
 var html_dictionary = {
   "Getintouch" : "snippets/getintouch.html",
   "Services" : "snippets/services.html",
-  "About" : "snippets/about.html",
+  "Aboutus" : "snippets/aboutus.html",
   "RENOVATION" : "snippets/home.html"
 };
 
@@ -18,6 +18,7 @@ $(document).ready(function(){
   });
   $(".nav-item a").click(function(){
     var clicked = $(this).html().replace(/\s/g, '');
+    console.log(clicked)
     $(".body").load(html_dictionary[clicked]) ;//adding html_button
   });
   $(".card-action a").click(function(){
@@ -39,5 +40,5 @@ function initMap() {
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 15, center: toronto});
   // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
+  var marker = new google.maps.Marker({position: toronto, map: map});
 };

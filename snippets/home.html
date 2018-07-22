@@ -1,52 +1,74 @@
-<!-- Adding an image underneath the navigation bar.-->
-<!-- <div id="outerbox">
-   <div id="sliderbox">
-   <img class="slides" src="assets/image.jpg">
-   <img class="slides" src="assets/image1.jpg">
-   <img class="slides" src="assets/image2.jpg">
-   </div>
-   </div> -->
-<!--  Row of Cards -->
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot" id="parallax1">
+    <div class="container">
+      <div class="row center">
+        <h3 class="col s12 light white-text text-darken-4">
+          Reinventing home renovation
+        </h3>
+      </div>
+    </div>
+  </div>
+  <div class="parallax">
+    <img src="../assets/image9.jpg" width="100%">
+  </div>
+</div>
+<!-- A paragraph about us. -->
 <div class="container" id="aboutus">
-   <h2 class="indigo-text text-darken-4" id="aboutustitle">About us...</h2>
-   <p>Aenean et enim accumsan, tincidunt libero in, aliquam libero. Ut eget nunc ultrices urna suscipit pellentesque. Integer vel dictum mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus at ex ut dolor efficitur ornare ut ac velit. Maecenas erat eros, iaculis sed tempor at, feugiat a arcu. Vestibulum dictum tristique erat, ullamcorper maximus neque hendrerit eget.</P>
+   <h2 class="orange-text text-darken-4" id="aboutustitle">About us...</h2>
+   <p>We are a renovation company inspired to design homes.</P>
 </div>
-<!-- Parallax -->
-<div class="parallax-container" id="para">
-   <div class="parallax center">
-      <img src="assets/image.jpg" alt="house interior image" class="responsive-img">
-   </div>
+<!-- 2nd Parallax -->
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot" id="parallax2">
+    <div class="container">
+      <div class="row center">
+        <h3 class="col s12 light white-text text-darken-4">
+          A look unique to your home
+        </h3>
+      </div>
+    </div>
+  </div>
+  <div class="parallax">
+    <img src="../assets/image7.jpg" width="100%">
+  </div>
 </div>
-<!-- Creating a card for the 'Get a quote'. -->
-<div class="container" id="cards">
+<!-- Stacked images with comments and titles. -->
+<section class="container section" id="photo's">
    <div class="row">
-      <div class="col s12 m6 l6">
-         <div class="card">
-            <div class="card-image">
-               <img src="assets/kitchen_image.jpg" height="250px" width="250px">
-            </div>
-            <span class="card-title">Get in touch</span>
-            <div class="card-content">Be proud to call it your kitchen.</div>
-            <div class="card-action">
-               <a href="#" class="indigo-text text-darken-4"><small>+Read more</small></a>
-            </div>
-         </div>
+      <div class="col s12 l6">
+         <img src="../assets/home2.jpg" alt="home image" class="responsive-img materialboxed">
       </div>
-      <div class="col s12 m6 l6">
-         <div class="card">
-            <div class="card-image">
-               <img src="assets/home_image.jpg" height="250px" width="250px">
-            </div>
-            <span class="card-title">Services</span>
-            <div class="card-content">Enjoy the comfort of your home.</div>
-            <div class="card-action">
-               <a href="#" class="indigo-text text-darken-4"><small>+Read more</small></a>
-            </div>
-         </div>
+      <div class="col s12 l5 offset-l1">
+         <h2 class="orange-text text-darken-4">Home</h2>
+         <p>Lorem ipsum dolor sit amet, malesuada sit amet lacus. Nullam iaculis pellentesque metus quis malesuada.</p>
       </div>
    </div>
+   <div class="row">
+      <div class="col s12 l6 push-l7 offset-l1">
+         <img src="../assets/bedroom3.jpg" alt=" bedroom image" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l5 pull-l5 right-align">
+         <h2 class="orange-text text-darken-4">Bedroom</h2>
+         <p>Lorem ipsum dolor sit amet, malesuada sit amet lacus. Nullam iaculis pellentesque metus quis malesuada.</p>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col s12 l6" id="last-stacked-image">
+         <img src="../assets/kitchen4.jpg" alt=" kitchen image" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l5 offset-l1">
+         <h2 class="orange-text text-darken-4">Kitchen</h2>
+         <p>Lorem ipsum dolor sit amet, roin mollis enim a volutpat condimentum. Nullam iaculis pellentesque metus quis malesuada.</p>
+      </div>
+   </div>
+</section>
 </div>
-</div>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script src="js/script.js"></script>
 <script>
-   $('.parallax').parallax();
+$('.parallax').parallax();
+$('.materialboxed').materialbox();
 </script>
