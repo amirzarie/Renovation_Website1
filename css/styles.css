@@ -70,8 +70,9 @@
 }
 
 #map {
-  width: 30%;  /* The width is the width of the web page */
- }
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;
+      }
 
 #last-stacked-image{
   margin-bottom: 50px;
