@@ -86,3 +86,9 @@
 #parallax2{
   margin: 0 auto;
 }
+
+
+/* Services */
+.carousel-item{
+  size : 1.5em;
+}
