@@ -90,3 +90,6 @@
 #photos{
   margin-top: 50px;
 }
+
+.carousel .carousel-item {
+width:450px !important;}
