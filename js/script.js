@@ -27,8 +27,7 @@ $(document).ready(function(){
 
 $(document).on('click', '.card-action a', function(){
   var clicked = $(this).parent().parent().find(".card-title").text().replace(/\s/g, '');
-  $(".body").load(html_dictionary[clicked]);//adding html_butto
-
+  $(".body").load(html_dictionary[clicked]);//adding html_button
 });
 
 function initMap() {
