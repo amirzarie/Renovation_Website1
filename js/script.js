@@ -13,12 +13,10 @@ $(document).ready(function(){
   $(".nav-item a").addClass("nav_button") // styling all nav_buttons
   $(".brand-logo").click(function(){
     var clicked = $(this).html().replace(/\s/g, '');
-    console.log(clicked)
     $(".body").load(html_dictionary[clicked]) ;
   });
   $(".nav-item a").click(function(){
     var clicked = $(this).html().replace(/\s/g, '');
-    console.log(clicked)
     $(".body").load(html_dictionary[clicked]) ;//adding html_button
   });
   $(".card-action a").click(function(){
@@ -30,7 +28,7 @@ $(document).ready(function(){
 $(document).on('click', '.card-action a', function(){
   var clicked = $(this).parent().parent().find(".card-title").text().replace(/\s/g, '');
   $(".body").load(html_dictionary[clicked]);//adding html_butto
- 
+
 });
 
 function initMap() {
