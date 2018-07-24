@@ -87,8 +87,6 @@
   margin: 0 auto;
 }
 
-
-/* Services */
-.carousel-item{
-  size : 100%;
+#photos{
+  margin-top: 50px;
 }
