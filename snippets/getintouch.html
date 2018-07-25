@@ -1,66 +1,48 @@
 <!-- Placing and image, information about us and also the steps-->
 <div class="card-panel z-depth-5">
-		<div class="row">
-			<div class="col s12 m6">
-
-
-
-		<h4 class="center"> Contact Us</h4>
-<div class="row">
-  <form class="col s12 m12">
-    <div class="row">
-      <div class="input-field col s12 m12">
-        <i class="mdi-action-account-circle prefix"></i>
-        <input id="icon_prefix" type="text" class="validate">
-        <label for="icon_prefix">Username</label>
+   <div class="row">
+      <div class="col s12 m6">
+         <h4 class="center"> Contact Us</h4>
+         <div class="row">
+            <form class="col s12 m12">
+               <div class="row">
+                  <div class="input-field col s12 m12">
+                     <i class="mdi-action-account-circle prefix"></i>
+                     <input id="icon_prefix" type="text" class="validate">
+                     <label for="icon_prefix">Name</label>
+                  </div>
+                  <div class="input-field col s12 m12">
+                     <i class="mdi-communication-email prefix"></i>
+                     <input id="icon_email" type="email" class="validate">
+                     <label for="icon_email">Email</label>
+                  </div>
+                  <div class="input-field col s12 m12">
+                     <i class="mdi-editor-mode-edit prefix"></i>
+                     <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                     <label for="icon_prefix2">Message</label>
+                  </div>
+               </div>
+               <!--row-->
+            </form>
+         </div>
+         <!--row-->
+         <button class="btn waves-effect waves-light center" type="submit" name="action">Send your message&nbsp;
+         <i class="mdi-content-send"></i>
+         </button>
       </div>
-
-      <div class="input-field col s12 m12">
-        <i class="mdi-communication-email prefix"></i>
-        <input id="icon_email" type="email" class="validate">
-        <label for="icon_email">Your Email</label>
+      <!--col-->
+      <div class="col s12 m5 offset-m1">
+         <br>
+         <br>
+         <p>
+            123 IMAGINARY ST, SUITE 100 <br>
+            XXXXX, IL 30314
+         </p>
+         <div id="map"></div>
       </div>
-
-       <div class="input-field col s12 m12">
-          <i class="mdi-editor-mode-edit prefix"></i>
-          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-          <label for="icon_prefix2">Message</label>
-        </div>
-
-
-    </div><!--row-->
-  </form>
-
-</div><!--row-->
- <button class="btn waves-effect waves-light center" type="submit" name="action">Send your message&nbsp;
-    <i class="mdi-content-send"></i>
-  </button>
-
-
-
-</div><!--col-->
-
-
-
-
-
-<div class="col s12 m5 offset-m1">
-	<br>
-	<br>
-	<p>
-123 IMAGINARY ST, SUITE 100 <br>
-XXXXX, IL 30314
-	</p>
-  <div id="map"></div>
-
+   </div>
+   <!--row-->
 </div>
-
-
-
-  </div><!--row-->
-  </div>
-
-
-
 <script async defer
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcmpBd1AJIu_XEZLe0XTDKkp4yVXIsFFE&callback=initMap"></script>
+<script src="js/script.js"></script>

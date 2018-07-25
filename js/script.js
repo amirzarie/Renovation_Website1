@@ -2,9 +2,10 @@
 
 var html_dictionary = {
   "Getintouch" : "snippets/getintouch.html",
-  "Services" : "snippets/services.html",
-  "Aboutus" : "snippets/aboutus.html",
-  "RENOVATION" : "snippets/home.html"
+  "Services" :   "snippets/services.html",
+  "AboutUs" : "snippets/aboutus.html",
+  "RENOVATION" : "snippets/home.html",
+  "Home" : "snippets/home.html"
 };
 
 
@@ -25,9 +26,8 @@ $(document).ready(function(){
   });
 })
 
-$(document).on('click', '.card-action a', function(){
-  var clicked = $(this).parent().parent().find(".card-title").text().replace(/\s/g, '');
-  $(".body").load(html_dictionary[clicked]);//adding html_button
+$('button').on('click',  function(){
+  var clicked = $(this).text('Thank you')
 });
 
 function initMap() {
